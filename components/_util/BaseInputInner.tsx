@@ -88,6 +88,9 @@ const BaseInputInner = defineComponent({
     });
     return () => {
       const { tag: Tag, value, ...restProps } = props;
+      delete restProps['onCompositionend'];
+      delete restProps['onCompositionstart'];
+      // console.log(restProps);
       return <Tag {...restProps} ref={inputRef} value={value} />;
     };
   },
