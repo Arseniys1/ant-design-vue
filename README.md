@@ -1,3 +1,5 @@
+node version 20.11.00 npm version 10.2.4
+
 <p align="center">
   <a href="https://www.antdv.com/">
     <img width="200" src="https://aliyuncdn.antdv.com/logo.png">
